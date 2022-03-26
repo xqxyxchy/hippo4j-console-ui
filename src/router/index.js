@@ -195,6 +195,12 @@ export const asyncRoutes = [
         name: 'serverPoolList',
         component: () => import('@/views/hippo4j/server/index'),
         meta: { title: '容器线程池' }
+      },
+      {
+        path: 'runDataList',
+        name: 'runDataList',
+        component: () => import('@/views/hippo4j/monitor/hisRunData/index'),
+        meta: { title: '线程池历史' }
       }
     ]
   },

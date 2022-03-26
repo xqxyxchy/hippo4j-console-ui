@@ -23,3 +23,11 @@ export function lastTaskCountFun(data) {
     data
   })
 }
+
+export function monitorList(data) {
+  return request({
+    url: '/hippo4j/v1/cs/monitor/query/page',
+    method: 'post',
+    data
+  })
+}
