@@ -168,7 +168,7 @@
           </el-col>
           <el-col :span="12">
             <el-form-item label="核心线程" prop="coreSize">
-              <el-input-number v-model="temp.coreSize" placeholder="核心线程" :min="1" :max="999"/>
+              <el-input-number v-model="temp.coreSize" placeholder="核心线程" :min="1" :max="1024"/>
             </el-form-item>
           </el-col>
         </el-row>
@@ -193,7 +193,7 @@
           </el-col>
           <el-col :span="12">
             <el-form-item label="最大线程" prop="maxSize">
-              <el-input-number v-model="temp.maxSize" placeholder="最大线程" :min="1" :max="999"/>
+              <el-input-number v-model="temp.maxSize" placeholder="最大线程" :min="1" :max="1024"/>
             </el-form-item>
           </el-col>
         </el-row>
